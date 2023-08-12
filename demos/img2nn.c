@@ -20,7 +20,7 @@
 #define NN_IMPLEMENTATION
 #include "nn.h"
 
-size_t arch[] = {3, 28, 28, 9, 1};
+size_t arch[] = {3, 4, 4, 2, 1};
 size_t max_epoch = 100*1000;
 size_t batches_per_frame = 200;
 size_t batch_size = 28;
